@@ -1,0 +1,23 @@
+{
+    "item.digs_dnd_origins.red_scale": "红鳞",
+    "item.digs_dnd_origins.blue_scale": "蓝鳞",
+    "item.digs_dnd_origins.green_scale": "绿鳞",
+    "item.digs_dnd_origins.white_scale": "白鳞",
+    "item.digs_dnd_origins.black_scale": "黑鳞",
+    "item.digs_dnd_origins.brass_scale": "黄鳞",
+    "item.digs_dnd_origins.leather_horns_helmet": "皮角头盔",
+    "item.digs_dnd_origins.golden_horns_helmet": "金角头盔",
+    "item.digs_dnd_origins.horns": "角",
+    "item.digs_dnd_origins.iron_horns_helmet": "铁角头盔",
+    "item.digs_dnd_origins.netherite_horns_helmet": "下界合金角头盔",
+    "entity.digs_dnd_origins.blue_breath": "闪电吐息",
+    "entity.digs_dnd_origins.green_breath": "剧毒吐息",
+    "item.digs_dnd_origins.toy_frog_spawn_egg": "玩具青蛙",
+    "entity.digs_dnd_origins.toy_frog": "玩具青蛙",
+    "entity.digs_dnd_origins.red_breath": "火焰吐息",
+    "effect.digs_dnd_origins.freeze": "冻结",
+    "entity.digs_dnd_origins.white_breath": "寒冰吐息",
+    "item.digs_dnd_origins.diamond_horns_helmet": "钻石角头盔",
+    "effect.digs_dnd_origins.stun": "眩晕",
+    "itemGroup.dndOrigins": "Dig's DnD Origins"
+}

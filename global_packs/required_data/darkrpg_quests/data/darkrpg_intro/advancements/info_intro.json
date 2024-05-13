@@ -1,0 +1,27 @@
+{
+    "__comment": "Made by ..",
+    "display": {
+        "title": {"text": "==DarkRPG介绍=="},
+        "description": {"text": "按L以打开任务，O以打开起源信息，/trigger..以随机传送/返回出生点，M以打开地图，C以缩放。使用起源之球来更改你的起源。通过完成任务或玩赌场游戏来获取更多奖励！"},
+        
+        "icon": {"item": "minecraft:bread"},
+        "frame": "challenge",
+        
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_intros": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:air"
+            }
+        }
+    },
+    "rewards": {
+		"function":"darkrpg_intro:intro",
+		"experience": 1
+    },
+    "parent": "darkrpg:root"
+}

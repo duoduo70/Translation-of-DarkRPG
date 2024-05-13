@@ -1,0 +1,19 @@
+{
+    "item.invoke.arcaneinvoker_spell_book": "奥秘法术调用",
+    "effect.invoke.arcaneoverdrive": "奥秘法术超载",
+    "spell.invoke.agonizingblast.description": "在一条直线上攻击敌人三次。每一次爆炸都会造成{damage}点奥术伤害，并在击中的第一个敌人周围再触发八次爆炸，如果他们找到目标，每一次又会触发八次，以此类推。不能无限重复。",
+    "spell.invoke.blink.description": "抛出一颗末影珍珠。",
+    "spell.invoke.risingflame.description": "充能以在一段时间内炙烤一个敌人，每秒造成 {damage} 点火焰法术伤害。",
+    "entity.invoke.gazehitter": "终末凝视",
+    "spell.invoke.supernova.description": "在你周围大范围内剧烈爆炸，在12格的半径内造成 {damage} 点火焰法术伤害。",
+    "effect.invoke.freezeaura": "寒凛之域",
+    "spell.invoke.icestorm.description": "充能释放大量霜弹，造成3x {damage} 点霜冻dps。",
+    "spell.invoke.icebarrage.description": "充能释放大量霜弹，造成 {damage} 点霜冻dps。",
+    "item.invoke.fireinvoker_spell_book": "火焰召唤",
+    "spell.invoke.sharedsuffering.description": "充能以对一个敌人造成 {damage} 点霜冻DPS，你和敌人都会被冻结。你的霜冻之力将会随着你的充能而不断增强。",
+    "spell.invoke.resonance.description": "充能以在你周围的区域造成 {damage} 点霜伤害。如果周围没有迷你冰川，可以在你附近召唤4座。更大区域内的所有迷你冰川也会在其周围区域造成同样的霜冻伤害。",
+    "spell.invoke.flameray.description": "充能以发射一束非常短促的火焰，每秒造成 {damage} 点火焰法术伤害。火束的持续时间永远不会超过半秒。",
+    "spell.invoke.deathchill.description": "充能以将你周围的每个人冻结在一大片区域10秒，当他们冻结在该区域时法术会同时冷却。",
+    "spell.invoke.upheaval.description": "充能以选择任意数量的敌人。被选中的敌人会在其下方产生一个迷你冰川，并造成一连串的冰川伤害。",
+    "spell.invoke.armageddon.description": "充能以在目标上空召唤小流星，每秒每颗流星造成 {damage} 点火力伤害。"
+}

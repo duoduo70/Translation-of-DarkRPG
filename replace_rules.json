@@ -1,0 +1,1024 @@
+{
+  "name": "DarkRPG 汉化 - 资源包部分",
+  "version": "1.0",
+  "extra-info": "在整合包 7.9.1hf2 版本上测试可用",
+  "dirname": "global_packs",
+  "unzip": true,
+  "extract-from": "../mods",
+  "extract-data-to": "required_data/translation_pack/data",
+  "lately-init": "lately_init.py",
+  "extract-data": [
+    "rewards",
+    "origins",
+    "minecraft",
+    "levitation",
+    "execute",
+    "dungeons_arise",
+    "darktimer",
+    "darkspins",
+    "darkspawn",
+    "darkrtp",
+    "darkrpg",
+    "darkrewards",
+    "darkinventory",
+    "darkfeather",
+    "darkdeath",
+    "darkbosses",
+    "darktides"
+  ],
+  "replacements": [
+    {
+      "replace": "Welcome Back! (Press L for Quests, O for Origin info, /trigger.. to RTP/Spawn, M for Worldmap, C for Zoom) Happy Exploring!",
+      "to": "欢迎回来！（按L以打开任务，O以打开起源信息，/trigger..以随机传送/返回出生点，M以打开地图，C以缩放。）开心地探索吧！"
+    },
+    {
+      "replace": "Click Here To Get Your Server",
+      "to": "点击这里来获取你的专属服务器"
+    },
+    {
+      "replace": "Click Here For Modpack & Server Info",
+      "to": "点击这里来查看整合包和服务器信息"
+    },
+    { "replace": "Aquatic born", "to": "水生动物" },
+    {
+      "replace": "Your adapted lungs allows you to hold your breath underwater for up to 8 minutes.",
+      "to": "你适应良好的肺让你能在水下憋气，时间长达8分钟。"
+    },
+    { "replace": "Breaching", "to": "鲸跃" },
+    {
+      "replace": "Primary: Torpedo yourself forward with great speed in the water.",
+      "to": "主要技能：在水中以极快的速度冲刺，如同发射的鱼雷"
+    },
+    { "replace": "Dehydration", "to": "脱水" },
+    {
+      "replace": "Due to the nature of your kind, you slowly dry out on land. the Water Protection enchantment will reduce its effects to some point.",
+      "to": "由于你的种族特性，你会在陆地上慢慢变干。防水附魔能在一定程度上减少脱水的影响。"
+    },
+    { "replace": "Echolocation", "to": "回声定位" },
+    {
+      "replace": "Secondary: Emit an ultrasonic pulse, allowing you to see the location of nearby entities, even through walls!",
+      "to": "次要技能: 发出一段超声波脉冲, 即使隔着墙也能让你定位附近的实体。"
+    },
+    { "replace": "Fishy Diet", "to": "鱼类食性" },
+    {
+      "replace": "You have evolved to only be able to eat fish.",
+      "to": "你已经进化得只能以鱼类为食。"
+    },
+    { "replace": "Weak", "to": "虚弱" },
+    {
+      "replace": "Your species is naturally more fragile, sacrificing hardiness for underwater mobility. You only have 8 hearts.",
+      "to": "牺牲强健的体魄换取水下的灵敏，这使得你的种族天生更脆弱。你只有8颗心的生命值。"
+    },
+    { "replace": "Dolphling", "to": "海豚族" },
+    { "replace": "The ambassador of the ocean.", "to": "海洋的使者。" },
+    {
+      "replace": "RTP cannot be triggered while slow falling is active...",
+      "to": "缓降激活时无法触发随机TP……"
+    },
+    {
+      "replace": "tp not allowed in this dimension...",
+      "to": "这个维度中无法TP……"
+    },
+    {
+      "replace": "A dark mage has teleported you to a random location...",
+      "to": "一名暗黑法师将你传送到了一个随机的位置……"
+    },
+    { "replace": "Effort", "to": "努力" },
+    {
+      "replace": "Getting all that wool sheared is quite the effort, and tends to drain your hunger.",
+      "to": "剪掉所有的羊毛是很费劲的，往往能耗空你的饥饿值。"
+    },
+    { "replace": "Fluffy Wool", "to": "毛茸茸的羊毛" },
+    {
+      "replace": "You can be sheared, and your soft wool cushions falls, causing you to bounce a bit.",
+      "to": "你柔软的羊绒可以被剪下来，导致你小跳一下。"
+    },
+    { "replace": "Rainbow Road", "to": "彩虹大道" },
+    { "replace": "Rainbow Road With A Star", "to": "星级彩虹大道" },
+    { "replace": "Herbivore", "to": "食草动物" },
+    {
+      "replace": "You can only eat grasses and vegetarian-friendly foods.",
+      "to": "你只能吃草或者素食。"
+    },
+    { "replace": "Shake Out", "to": "抖一抖" },
+    {
+      "replace": "Shaking out your fluff will allow you to see your current wool color.",
+      "to": "抖抖身上松软的毛毛能让你看见你现在的毛色。"
+    },
+    { "replace": "Wooly", "to": "绒羊族" },
+    {
+      "replace": "Close kin of the sheep, you are especially fluffy",
+      "to": "羊的近亲，你特别的毛茸茸"
+    },
+    { "replace": "You spun the Roulette Wheel", "to": "你转动了轮盘" },
+    {
+      "replace": "You converted Rotten Flesh into Diamond",
+      "to": "你刚才将腐肉转化成了钻石"
+    },
+    { "replace": "Smelter Skelter (Quest)", "to": "摇滚熔炉（任务）" },
+    {
+      "replace": "Craft a Furnace.  Rewards: 30 Exp.",
+      "to": "制造熔炉。奖励：30经验值。"
+    },
+    { "replace": "Man VS Bee (Quest)", "to": "人VS蜂（任务）" },
+    {
+      "replace": "Kill a Bee. Reward: 30 Exp, 15x Honey Bottles, 1x Diamond Sword, 10x Red Wool.",
+      "to": "杀死蜜蜂。奖励：30经验值，15个蜂蜜瓶，1把钻石剑，10个红色羊毛。"
+    },
+    { "replace": "Power Of Quartz (Quest)", "to": "石英的力量（任务）" },
+    {
+      "replace": "Gather 20x Nether Quartz.  Rewards: 85 Exp.",
+      "to": "收集20个下界石英。奖励：85经验值。"
+    },
+    {
+      "replace": "Multi-Dimensional Storage (Quest)",
+      "to": "多维存储（任务）"
+    },
+    {
+      "replace": "Craft 1x Ender Chest.  Rewards: 100 Exp.",
+      "to": "制造1个末影箱。奖励：100经验值。"
+    },
+    { "replace": "I Can Fly! (Quest)", "to": "我能飞！（任务）" },
+    {
+      "replace": "Obtain 1x Elytra.  Rewards: 200 Exp.",
+      "to": "获得1个鞘翅。奖励：200经验值。"
+    },
+    { "replace": "Strider Ender (Quest)", "to": "炽足兽的末日（任务）" },
+    {
+      "replace": "Kill a Strider. Reward: 320 Exp, 10x Amethyst Shards.",
+      "to": "击杀炽足兽。奖励：320经验值，10个紫水晶碎片。"
+    },
+    { "replace": "Cozy (Quest)", "to": "舒服（任务）" },
+    {
+      "replace": "Craft a Pink Bed using Pink Wool.  Reward: 5 Exp, 2x Shulker Boxes.",
+      "to": "用粉红色羊毛制作粉红色床。奖励：5经验值，2个潜影盒。"
+    },
+    { "replace": "Dirty Business (Quest)", "to": "肮脏的生意（任务）" },
+    {
+      "replace": "Gather 10x Coarse Dirt.  Reward: 120 Exp, 50x Rooted Dirt.",
+      "to": "收集10个砂土。奖励：120经验值，50个缠根泥土。"
+    },
+    { "replace": "Extra Quests", "to": "额外任务" },
+    {
+      "replace": "These are extra quests that can be completed in any order.",
+      "to": "这些是额外的任务，这些任务可以以任意顺序完成。"
+    },
+    { "replace": "Cool Down (Quest)", "to": "冷静一下（任务）" },
+    {
+      "replace": "Fill an empty Bucket with Water.  Reward: 5 Exp, 1x Chainmal Helmet, 50x Arrows.",
+      "to": "把空桶装满水。奖励：5经验值，1个锁链头盔，50支箭。"
+    },
+    { "replace": "Dug yet? (Quest)", "to": "挖到了吗？（任务）" },
+    {
+      "replace": "Gather Netherite scraps and make 4x Netherite Ingots.  Reward: 100 Exp, 1x Netherite Boots, 2x Experience Bottles.",
+      "to": "收集下界合金碎片，并制作4个下界合金锭。奖励：65经验值，1个下界合金靴子，20个黄绿色染色玻璃。"
+    },
+    { "replace": "Look at you now! (Quest)", "to": "看看你自己！（任务）" },
+    {
+      "replace": "Obtain all 4 pieces of Diamond Armor.  Reward: 150 Exp",
+      "to": "集齐钻石盔甲的4件套。奖励：150经验值。"
+    },
+    { "replace": "Farmer's Request (Quest)", "to": "农夫的请求（任务）" },
+    {
+      "replace": "Craft a Wooden Hoe.  Reward: 10 Exp, 30x Oak Fence.",
+      "to": "制作木锄。奖励：10经验值，30个橡木栅栏。"
+    },
+    {
+      "replace": "Real Minecraft Starts Now (Quest)",
+      "to": "真正的Minecraft现在开始（任务）"
+    },
+    {
+      "replace": "Assault a tree, gather resources, make a Crafting Table.  Reward: 20 Exp, 10x Sticks.",
+      "to": "砍树，收集资源，制造工作台。奖励：20经验值，10根木棍。"
+    },
+    { "replace": "Push The Button (Quest)", "to": "来按按钮（任务）" },
+    {
+      "replace": "Craft 1x Stone Button.  Rewards: 65 Exp.",
+      "to": "制作1个石头按钮。奖励：65经验值。"
+    },
+    { "replace": "Soup And Noodles (Quest)", "to": "汤与面条（任务）" },
+    {
+      "replace": "Craft 8x Bowls.  Rewards: 65 Exp.",
+      "to": "制造8个碗。奖励：65经验值。"
+    },
+    { "replace": "Rotten Flesh Addiction (Quest)", "to": "腐肉成瘾（任务）" },
+    {
+      "replace": "Kill More Zombies, Collect 45x Rotten Flesh.  Reward: 375 Exp, 50x Arrows, 5x Diamonds.",
+      "to": "击杀更多僵尸，并收集45个腐肉。奖励：375经验值，50支箭，5颗钻石。"
+    },
+    { "replace": "I Got Soul! (Quest)", "to": "我得到灵魂啦！（任务）" },
+    {
+      "replace": "Craft 1x Soul Campfire.  Rewards: 100 Exp.",
+      "to": "制作1个灵魂营火。奖励：100经验值。"
+    },
+    { "replace": "Fishes (Quest)", "to": "好多鱼（任务）" },
+    {
+      "replace": "Fish and catch 5x Raw Cod.  Reward: 5 Exp, 1x Turtle Helm.",
+      "to": "通过钓鱼得到5生鳕鱼。奖励：5经验值，1个海龟头盔。"
+    },
+    { "replace": "Library Master (Quest)", "to": "图书管理员（任务）" },
+    {
+      "replace": "Craft 1x Bookshelf.  Rewards: 40 Exp.",
+      "to": "制造1个书架。奖励：40经验值。"
+    },
+    { "replace": "Entry Denied (Quest)", "to": "禁止进入（任务）" },
+    {
+      "replace": "Craft 1x Cobblestone Wall.  Rewards: 30 Exp.",
+      "to": "制造1个圆石墙，奖励：30经验值。"
+    },
+    { "replace": "I'm Rich!! (Quest)", "to": "我真有钱！！（任务）" },
+    {
+      "replace": "Craft 3x Diamond Blocks.  Rewards: 70 Exp.",
+      "to": "制作3个钻石块。奖励：70经验值。"
+    },
+    { "replace": "Iron Man IV (Quest)", "to": "钢铁侠IV（任务）" },
+    {
+      "replace": "Get an Iron Ingot.  Reward: 15 Exp, 1x Golden Pickaxe, 1x Flint.",
+      "to": "获得铁锭。奖励：15经验值，1把金稿，1个燧石。"
+    },
+    { "replace": "Spacious (Quest)", "to": "真宽敞（任务）" },
+    {
+      "replace": "Craft a Chest.  Reward: 10 Exp, 6x Copper Ingots, 1x Chest.",
+      "to": "制造箱子。奖励：10经验值，6个铜锭，1个箱子。"
+    },
+    { "replace": "Ender's End (Quest)", "to": "末影之末（任务）" },
+    {
+      "replace": "Travel to The End, Kill Endermen.  Reward: 220 Exp, 20x Bread, 15x Apples.",
+      "to": "抵达末地，杀死末影人。奖励：220经验值，20个面包，15个苹果。"
+    },
+    { "replace": "Skeleton Towers (Quest)", "to": "骷髅之塔（任务）" },
+    {
+      "replace": "Craft 1x Bone Block.  Rewards: 50 Exp.",
+      "to": "制造1个骨块。奖励：50经验值。"
+    },
+    { "replace": "Arachnophobicly (Quest)", "to": "蜘蛛恐惧症（任务）" },
+    {
+      "replace": "Kill Spiders, Collect 3x Spider Eyes.  Reward: 100 Exp, 35x Bread, 20 Apples, 1x Diamond Pickaxe.",
+      "to": "击杀蜘蛛，并收集3个蜘蛛眼。奖励：100经验值，35个面包，20个苹果，1个钻石稿。"
+    },
+    { "replace": "Pavement Time (Quest)", "to": "是时候铺地板了（任务）" },
+    {
+      "replace": "Craft 6x Smooth Stone Slabs.  Rewards: 30 Exp.",
+      "to": "制作6个平滑石头台阶。奖励：30经验值。"
+    },
+    { "replace": "Rolling around in fire (Quest)", "to": "与火共舞（任务）" },
+    {
+      "replace": "Gather 64x Blaze Rods.  Reward: 130 Exp.",
+      "to": "收集64个烈焰棒。奖励：130经验值。"
+    },
+    { "replace": "Main Story Line", "to": "主故事线" },
+    {
+      "replace": "This is the main story quest chain. Completing each goal will unlock harder quests in this series.",
+      "to": "这是主要的故事任务线。完成某些任务后将解锁这个系列中更难的任务。"
+    },
+    { "replace": "Can't Touch This! (Quest)", "to": "别碰这个！（任务）" },
+    {
+      "replace": "Craft 1x Magma Block.  Rewards: 70 Exp.",
+      "to": "制作1个岩浆块。奖励：70经验值。"
+    },
+    { "replace": "Earthquake (Quest)", "to": "地震（任务）" },
+    {
+      "replace": "Craft 4x Cracked Stone Bricks.  Rewards: 50 Exp.",
+      "to": "制造4个裂纹石砖，奖励：50经验值。"
+    },
+    { "replace": "So cruel.. (Quest)", "to": "太残忍了吧……（任务）" },
+    {
+      "replace": "Hurt a Panda.  Reward: 10 Exp, 10x Slime Balls",
+      "to": "伤害熊猫。奖励：10经验值，10粘液球。"
+    },
+    { "replace": "Bannerama (Quest)", "to": "旗帜百科（任务）" },
+    {
+      "replace": "Craft a Red Banner.  Reward: 40 Exp, 1x Shield",
+      "to": "制作红色旗帜。奖励：40经验值，1个盾牌。"
+    },
+    { "replace": "Shroomy... (Quest)", "to": "小蘑菇……（任务）" },
+    {
+      "replace": "Gather 10x Mycelium.  Reward: 120 Exp, 50x Crimson Nylium, 50x Warped Nylium.",
+      "to": "收集10个菌丝。奖励：120经验值，50个绯红菌岩，50个诡异菌岩。"
+    },
+    { "replace": "Ladders Without Snakes (Quest)", "to": "无蛇之梯（任务）" },
+    {
+      "replace": "Craft 5x Ladders.  Rewards: 30 Exp.",
+      "to": "制作5个梯子。奖励：30经验值。"
+    },
+    { "replace": "End Tower (Quest)", "to": "末地之塔（任务）" },
+    {
+      "replace": "Gather 60x End Stone Bricks.  Reward: 200 Exp, 50x Glass, 10x Eye of the Ender.",
+      "to": "收集60个末地石砖。奖励：200经验值，50个玻璃，10个末影之眼。"
+    },
+    { "replace": "Boat Trip (Quest)", "to": "乘船旅行（任务）" },
+    {
+      "replace": "Craft an Oak Boat.  Reward: 10 Exp, 1x Iron Boots",
+      "to": "制作橡木船。奖励：10经验值，1个铁靴子。"
+    },
+    { "replace": "Metal Sneakers (Quest)", "to": "金属运动鞋（任务）" },
+    {
+      "replace": "Craft 1x Iron Boots.  Rewards: 50 Exp.",
+      "to": "制作1个铁靴子。奖励：50经验值。"
+    },
+    { "replace": "Red ZzZZzz (Quest)", "to": "红ZzZZzz（任务）" },
+    {
+      "replace": "Craft a Red Bed.  Reward: 45 Exp, 10x Torches, 1x Diamond Axe.",
+      "to": "制作红色床。奖励：45经验值，10个火把，1把钻石斧。"
+    },
+    { "replace": "Pass The Dip (Quest)", "to": "自私鬼（任务）" },
+    {
+      "replace": "Craft 25x Gold Nuggets.  Rewards: 80 Exp.",
+      "to": "制造25个金粒。奖励：80经验值。"
+    },
+    { "replace": "Oxidizer (Quest)", "to": "氧化剂（任务）" },
+    {
+      "replace": "Gather 50x Raw Copper.  Reward: 80 Exp, 35x Brown Wool, 1x Diamond Sword, 1x Gold Pickaxe, 60x Arrows, 1x Crossbow",
+      "to": "收集50个粗铜。奖励：80经验值，35个棕色羊毛，1把钻石剑，1把金镐，60支箭，1把弩。"
+    },
+    {
+      "replace": "Warped Fungus Anyone? (Quest)",
+      "to": "谁有诡异菌呀？（任务）"
+    },
+    {
+      "replace": "Get a Warped Fungus.  Reward: 50 Exp, 1x Netherite Sword.",
+      "to": "获得诡异菌。奖励：50经验值，1把下界合金剑。"
+    },
+    { "replace": "Stuck In The Middle (Quest)", "to": "陷在中间（任务）" },
+    {
+      "replace": "Craft 1x Iron Trapdoor.  Rewards: 65 Exp.",
+      "to": "制作1个铁活板门。奖励：65经验值。"
+    },
+    { "replace": "Zombie Trouble (Quest)", "to": "僵尸困扰（任务）" },
+    {
+      "replace": "Kill Zombies, Collect 9x Rotten Flesh.  Reward: 50 Exp, 1x Chainmail Chestplate, 1x Crossbow, 1x Diamond.",
+      "to": "击杀僵尸，并收集9个腐肉。奖励：50经验值，1个锁链胸甲，1把弩，1颗钻石。"
+    },
+    { "replace": "Build The Wart (Quest)", "to": "疣农场（任务）" },
+    {
+      "replace": "Craft 1x Nether Wart Block.  Rewards: 70 Exp.",
+      "to": "制作1个下界疣块。奖励：70经验值。"
+    },
+    { "replace": "The Jailer (Quest)", "to": "监狱长（任务）" },
+    {
+      "replace": "Craft 16x Iron Bars.  Rewards: 30 Exp.",
+      "to": "制作16个铁栏杆。奖励：30经验值。"
+    },
+    { "replace": "Breakable (Quest)", "to": "易碎品（任务）" },
+    {
+      "replace": "Craft 3x Glass Bottles.  Rewards: 65 Exp.",
+      "to": "制作3个玻璃瓶。奖励：65经验值。"
+    },
+    { "replace": "Got Copper? (Quest)", "to": "有铜吗？（任务）" },
+    {
+      "replace": "Get a Copper Ingot.  Reward: 15 Exp, 1x Golden Sword.",
+      "to": "得到铜锭。奖励：15经验值，1把金剑。"
+    },
+    { "replace": "Reinforced Privacy (Quest)", "to": "加强隐私防范（任务）" },
+    {
+      "replace": "Craft 6x Blackstone Walls.  Rewards: 70 Exp.",
+      "to": "制造6个黑石墙。奖励：70经验值。"
+    },
+    {
+      "replace": "Ready, Set, Pull! (Quest)",
+      "to": "预备，就绪，拉！（任务）"
+    },
+    {
+      "replace": "Craft 2x Levers.  Rewards: 65 Exp.",
+      "to": "制作2个拉杆。奖励：65经验值。"
+    },
+    { "replace": "Groovy Fungi (Quest)", "to": "炫彩真菌（任务）" },
+    {
+      "replace": "Gather 2x Crimson Fungus.  Reward: 25 Exp, 1x Iron Shovel, 10x Cooked Salmon.",
+      "to": "收集2个绯红菌。奖励：25经验值，1个铁锹，10个熟鲑鱼。"
+    },
+    { "replace": "Brick On Brick (Quest)", "to": "砖块上的砖块（任务）" },
+    {
+      "replace": "Craft 2x Red Nether Bricks.  Rewards: 85 Exp.",
+      "to": "制作2个红色下界砖块。奖励：85经验值。"
+    },
+    {
+      "replace": "Look But Do Not Touch (Quest)",
+      "to": "可远观不可亵玩焉（任务）"
+    },
+    {
+      "replace": "Gather 10x Cactus.  Reward: 120 Exp, 50x Clay.",
+      "to": "收集10个仙人掌。奖励：120经验值，50粘土块。"
+    },
+    { "replace": "Charcoal Toothpaste (Quest)", "to": "木炭牙膏（任务）" },
+    {
+      "replace": "Gather Charcoal.  Rewards: 30 Exp.",
+      "to": "收集木炭。奖励：30经验值。"
+    },
+    {
+      "replace": "Dirt off your shoulders (Quest)",
+      "to": "甩掉肩上的尘土（任务）"
+    },
+    {
+      "replace": "Get 2x Dirt.  Reward: 5 Exp, 1x Wooden Pickaxe.",
+      "to": "获得2个泥土。奖励：5经验值，1个木镐。"
+    },
+    { "replace": "Golden Blacksmith (Quest)", "to": "金匠（任务）" },
+    {
+      "replace": "Collect 2x Gold Ingots.  Reward: 15 Exp, 5x Golden Apples, 1x Anvil.",
+      "to": "收集2个金锭。奖励：15经验值，5个金苹果，1个铁砧。"
+    },
+    { "replace": "Campfire Story (Quest)", "to": "营火故事（任务）" },
+    {
+      "replace": "Make a Campfire.  Reward: 10 Exp, 7x Cooked Rabbit, 50x Green Wool.",
+      "to": "制造营火。奖励：10经验值，7个烤兔肉，50个绿色羊毛。"
+    },
+    { "replace": "Beefy (Quest)", "to": "牛肉味（任务）" },
+    {
+      "replace": "Hunt cows for 1x Raw Beef.  Reward: 15 Exp, 10x Honey Bottles, 10x Beetroot Soup.",
+      "to": "杀死牛并获得1个生牛肉。奖励：15经验值，10个蜂蜜瓶，10碗甜菜汤。"
+    },
+    { "replace": "Wooly (Quest)", "to": "羊毛制品（任务）" },
+    {
+      "replace": "Hunt some sheep for 1x White Wool.  Reward: 5 Exp, 50x Pink Wool, 3x Cactus, 1x Bucket.",
+      "to": "通过击杀一些羊来获得1个羊毛。奖励：5经验值，50个粉红色羊毛，3个仙人掌，1个桶。"
+    },
+    {
+      "replace": "Let There Be Light! (Quest)",
+      "to": "是时候让这里变亮了！（任务）"
+    },
+    {
+      "replace": "Craft 8x Torches.  Rewards: 30 Exp.",
+      "to": "制作8个火把。奖励：30经验值。"
+    },
+    { "replace": "Window Shopper (Quest)", "to": "橱窗购物家（任务）" },
+    {
+      "replace": "Craft an Armor Stand.  Reward: 5 Exp, 25 Oak Planks, 1 Oak Sign, 1 Oak Door.",
+      "to": "制造盔甲架。奖励：5经验值，25个橡木木板，1个橡木告示牌，1个橡木门。"
+    },
+    {
+      "replace": "Repair, Rename and Combine! (Quest)",
+      "to": "修复，重命名以及合成！（任务）"
+    },
+    {
+      "replace": "Craft 1x Anvil.  Rewards: 65 Exp.",
+      "to": "制造1个铁砧。奖励：65经验值。"
+    },
+    { "replace": "Bone Collector (Quest)", "to": "骨头收集者（任务）" },
+    {
+      "replace": "Kill Skeletons, Collect 20x Bones.  Reward: 100 Exp, 25x Pumpkin Pie, 5x Leather.",
+      "to": "击杀骷髅，并收集20根骨头。奖励：100经验值，25个南瓜派，5个皮革。"
+    },
+    { "replace": "Piglin Assault (Quest)", "to": "猪灵小分队（任务）" },
+    {
+      "replace": "(Final Easy Quest) Craft a Nether Portal and Kill a Piglin in the Nether.  Reward: 1000 Exp, 10x Diamonds, 1x Green Dye, 1x Yellow Dye, 1x Blue Dye, 1x Pink Dye, 1x Orange Dye, 1x Cyan Dye, 5 Torches.",
+      "to": "（简单任务完结）制作下界传送门，并在下界杀死猪灵。奖励：1000经验值，10颗钻石，1个绿色染料，1个黄色染料，1个蓝色染料，1个粉红色染料，1个橙色染料，1个青色染料，5个火把。"
+    },
+    { "replace": "Obsidianary (Quest)", "to": "黑曜石百科（任务）" },
+    {
+      "replace": "Mine Obsidian.  Reward: 50 Exp, 1x Iron Sword, 1x Iron Helm.",
+      "to": "挖黑曜石。奖励：50经验值，1把铁剑，1个铁头盔。"
+    },
+    { "replace": "Bucket Of Cod (Quest)", "to": "鳕鱼桶（任务）" },
+    {
+      "replace": "Use an empty bucket and fill up with Cod.  Reward: 20 Exp, 5x Golden Apples.",
+      "to": "用一个空桶来装鳕鱼。奖励：20经验值，5个金苹果。"
+    },
+    { "replace": "Bone Master (Quest)", "to": "骨头大师（任务）" },
+    {
+      "replace": "Kill More Skeletons, Collect 50x Bones.  Reward: 500 Exp, 30 Apples, 20 Carrots, 5x Coal.",
+      "to": "击杀更多骷髅，并收集50个骨头。奖励：500经验值，30个苹果，20个胡萝卜，5个煤炭。"
+    },
+    {
+      "replace": "Magmaliciouslydocious (Quest)",
+      "to": "美味可爱的岩浆怪（任务）"
+    },
+    {
+      "replace": "Kill Magma Cubes, Collect 60x Magma Cream.  Reward: 1000 Exp, 5x Totem of Undying.",
+      "to": "杀死岩浆怪，并收集60个岩浆膏。奖励：1000经验值，5个不死图腾。"
+    },
+    { "replace": "Soothing.. (Quest)", "to": "舒缓……（任务）" },
+    {
+      "replace": "Craft 1x Honey Bottle.  Rewards: 80 Exp.",
+      "to": "制造1个蜂蜜瓶。奖励：80经验值。"
+    },
+    { "replace": "Axolotl Testing (Quest)", "to": "美西螈实验（任务）" },
+    {
+      "replace": "Use a Bucket of Water to catch an Axolotl.  Reward: 200 Exp, 1x Grindstone.",
+      "to": "用水桶抓住美西螈。奖励：200经验值，1个砂轮。"
+    },
+    { "replace": "Ender's Reach (Quest)", "to": "末影将至（任务）" },
+    {
+      "replace": "Travel to The End, Kill Endermen and collect 10x Ender Pearls.  Reward: 550 Exp, 20x Gold Ingots.",
+      "to": "前往末地，杀死末影人并收集10个末影珍珠。奖励：550经验值，20个金锭。"
+    },
+    { "replace": "Sticky Situation (Quest)", "to": "木棍难题（任务）" },
+    {
+      "replace": "Gather 30x Sticks.  Rewards: 30 Exp.",
+      "to": "收集30根木棍。奖励：30经验值。"
+    },
+    { "replace": "Metal Gear Rising (Quest)", "to": "合金装备崛起（任务）" },
+    {
+      "replace": "Gather 10x Melons.  Reward: 120 Exp, 50x Moss Block.",
+      "to": "收集10个西瓜。奖励：120经验值，50个苔藓块。"
+    },
+    { "replace": "Greener... (Quest)", "to": "绿化……（任务）" },
+    {
+      "replace": "Gather 10x Grass Blocks.  Reward: 120 Exp, 50x Gravel.",
+      "to": "收集10个草方块。奖励：120经验值，50个沙砾。"
+    },
+    { "replace": "Red Brick (Quest)", "to": "红砖（任务）" },
+    {
+      "replace": "Craft 2x Nether Bricks.  Rewards: 70 Exp.",
+      "to": "制作2个下界砖块。奖励：70经验值。"
+    },
+    { "replace": "Glow In The Dark (Quest)", "to": "黑暗中的一束光（任务）" },
+    {
+      "replace": "Craft 1x Glowstone.  Rewards: 70 Exp.",
+      "to": "制造1个荧石。奖励：70经验值。"
+    },
+    { "replace": "Dig Site (Quest)", "to": "挖掘现场（任务）" },
+    {
+      "replace": "Craft a Netherite Shovel.  Reward: 65 Exp, 1x Netherite Boots, 2x Experience Bottles.",
+      "to": "制作一个下界合金锹。奖励：65经验值，1个下界合金靴，2个附魔之瓶。"
+    },
+    { "replace": "Fruity Loops (Quest)", "to": "果汁循环（任务）" },
+    {
+      "replace": "Smelt Chorus Fruits into Popped Chorus Fruit and obtain x4 of them.  Rewards: 150 Exp.",
+      "to": "冶炼4个紫颂果成爆裂紫颂果。奖励：150经验值。"
+    },
+    { "replace": "Stoned (Quest)", "to": "石化（任务）" },
+    {
+      "replace": "Mine some Cobblestone, Use a Furnace and make 5x Stone.  Reward: 30 Exp, 1x Fishing Rod, 1x Bow, 30x Arrows.",
+      "to": "挖一些圆石，用熔炉烧制5个石头。奖励：30经验值，1根钓鱼竿，1把弓，30支箭。"
+    },
+    { "replace": "Da Vinci Code (Quest)", "to": "达芬奇之谜（任务）" },
+    {
+      "replace": "Craft a Painting.  Rewards: 30 Exp.",
+      "to": "制作画。奖励：30经验值。"
+    },
+    { "replace": "Dedicated Survivor (Quest)", "to": "职业幸存者（任务）" },
+    {
+      "replace": "Gather 40x Rotten Flesh.  Rewards: 50 Exp.",
+      "to": "收集40个腐肉。奖励：50经验值。"
+    },
+    { "replace": "Sophisticated Dirt (Quest)", "to": "精致泥土（任务）" },
+    {
+      "replace": "Craft 3x Coarse Dirt.  Rewards: 70 Exp.",
+      "to": "制造3个砂土.奖励：70经验值。"
+    },
+    { "replace": "Packed Lunch (Quest)", "to": "盒装餐（任务）" },
+    {
+      "replace": "Craft 5x Chests.  Reward: 20 Exp, 1x Pink Shulker Box.",
+      "to": "制作5个箱子。奖励：20经验值，1个粉红色潜影盒。"
+    },
+    {
+      "replace": "What Did You Have For Dinner? (Quest)",
+      "to": "晚上吃了什么？（任务）"
+    },
+    {
+      "replace": "Gather 1x Dragon Breath.  Rewards: 100 Exp.",
+      "to": "收集1个龙息。奖励：100经验值。"
+    },
+    { "replace": "Real Fighter (Quest)", "to": "真正的战士（任务）" },
+    {
+      "replace": "Craft a Wooden Sword.  Reward: 5 Exp, 30x Oak Planks, 2x Bowls.",
+      "to": "制作木剑。奖励：5经验值，30个橡木木板，2个碗。"
+    },
+    { "replace": "Creeper Casino", "to": "苦力怕赌场" },
+    {
+      "replace": "Gather Diamonds. Spin the wheel to win multiple prizes. Make sure to clear your inventory before playing. These are repeatable quests.",
+      "to": "收集钻石，转动转盘，赢得众多奖励。在玩之前，请确保你的物品栏不是满的。这个任务可以重复完成。"
+    },
+    { "replace": "Fur No More (Quest)", "to": "不再有毛（任务）" },
+    {
+      "replace": "Craft 1x Shears.  Rewards: 30 Exp.",
+      "to": "制作1把剪刀。奖励：30经验值。"
+    },
+    { "replace": "More Ghastly (Quest)", "to": "更加惊魂失魄（任务）" },
+    {
+      "replace": "Kill Ghasts, Collect 40x Ghast Tears.  Reward: 1000 Exp, 5x Enchanted Golden Apples.",
+      "to": "击杀恶魂，并收集40个恶魂之泪。奖励：1000经验值，5个附魔金苹果。"
+    },
+    {
+      "replace": "So.. about the money? (Quest)",
+      "to": "所以……钱的事情呢？（任务）"
+    },
+    {
+      "replace": "Gather 32x Gold Ingots.  Reward: 80 Exp",
+      "to": "收集32个金锭。奖励：80经验值。"
+    },
+    { "replace": "Warden Found! (Quest)", "to": "找到监守者了！（任务）" },
+    {
+      "replace": "(Bonus Extreme Quest) Find and kill The Warden.  Reward: 2000 Exp, 1x Pigstep Music Disc",
+      "to": "（额外极限任务）找到监守者并杀掉它。奖励：2000经验值，1个Pigstep唱片。"
+    },
+    { "replace": "Magmalicious (Quest)", "to": "岩浆制品（任务）" },
+    {
+      "replace": "Kill Magma Cubes, Collect 10x Magma Cream.  Reward: 150 Exp, 10 Iron Ingots, 2 Chests.",
+      "to": "杀死岩浆怪，并收集10个岩浆膏。奖励：150经验值，10个铁锭，2个箱子。"
+    },
+    { "replace": "Crafting Quests", "to": "合成任务" },
+    {
+      "replace": "Craft various items and gain bonus Experience points. These can be completed in any order.",
+      "to": "制作各种物品并获得额外的经验值。这些任务可以以任意顺序完成。"
+    },
+    {
+      "replace": "Convert Rotten Flesh to Diamonds",
+      "to": "用腐肉来转换为钻石"
+    },
+    {
+      "replace": "Convert 9x Rotten Flesh into 1x Diamond. Stand on a Crafting Table to enable the process and switch between off-hand and main hand to initiate.",
+      "to": "将9个腐肉转化为1颗钻石。站在工作台上在主手和副手之间相互切换腐肉来兑换。"
+    },
+    { "replace": "DarkQuesting", "to": "暗黑任务" },
+    {
+      "replace": "Complete Quests and receive Experience and Rewards!",
+      "to": "通过完成任务来获得经验和奖励！"
+    },
+    { "replace": "Creeper Casino Roulette", "to": "苦力怕轮盘赌" },
+    {
+      "replace": "Try your luck and win rare prizes. Entry fee is 5 Diamonds per spin. Stand on a Diamond Block to enable the process and switch between off-hand and main hand to initiate.",
+      "to": "用运气来赢得大奖！每次的花费是5颗钻石，站在钻石块上将钻石在主手和副手之间切换以开始赌局。"
+    },
+    { "replace": "Precise Timekeeping (Quest)", "to": "精确计时（任务）" },
+    {
+      "replace": "Craft 1x Quartz Block.  Rewards: 85 Exp.",
+      "to": "制作1个石英块。奖励：85经验值。"
+    },
+    { "replace": "Shell Power (Quest)", "to": "贝壳之力（任务）" },
+    {
+      "replace": "(Final Hard Quest) Find and kill Shulkers, Obtain 2x Shulker Shells.  Reward: 2000 Exp, 30x Diamonds, 15x Enchanted Golden Apples, 1x Netherite Chestplate, 1x Netherite Helmet.",
+      "to": "（困难任务完结）寻找且杀死潜影贝，并获得2个潜影壳。奖励：2000经验值，30颗钻石，15个附魔金苹果，1个下界合金胸甲，1个下界合金头盔。"
+    },
+    { "replace": "Seek The Wart (Quest)", "to": "寻找疣（任务）" },
+    {
+      "replace": "Gather 9x Nether Warts.  Rewards: 70 Exp.",
+      "to": "收集9个下界疣。奖励：70经验值。"
+    },
+    { "replace": "Water Catcher (Quest)", "to": "捕水者（任务）" },
+    {
+      "replace": "Craft 5x Buckets.  Rewards: 50 Exp.",
+      "to": "制造5个桶。奖励：50经验值。"
+    },
+    { "replace": "Bone Meal Craving (Quest)", "to": "骨粉渴望（任务）" },
+    {
+      "replace": "Craft 9x Bone Meal.  Rewards: 50 Exp.",
+      "to": "制造9个骨粉。奖励：50经验值。"
+    },
+    { "replace": "Going to Hell (Quest)", "to": "是时候去地狱了（任务）" },
+    {
+      "replace": "Gather 14x Obisidan blocks.  Reward: 20 Exp, 1x Flint and Steel",
+      "to": "收集14个黑曜石。奖励：20经验值，1个打火石。"
+    },
+    { "replace": "Light Of The Soul (Quest)", "to": "灵魂之光（任务）" },
+    {
+      "replace": "Craft 1x Soul Torch.  Rewards: 100 Exp.",
+      "to": "制作1个灵魂火把。奖励：100经验值。"
+    },
+    { "replace": "Chop chop chop (Quest)", "to": "哒哒哒（任务）" },
+    {
+      "replace": "Craft a Wooden Axe.  Reward: 20 Exp, 1x Wooden Shield.",
+      "to": "制作一把木斧。奖励：20经验值，1个木制盾牌。"
+    },
+    { "replace": "Ghastly (Quest)", "to": "惊魂失魄（任务）" },
+    {
+      "replace": "Kill Ghasts, Collect 20x Ghast Tears.  Reward: 150 Exp, 1x Warped Fungus on Stick, 5x Lanterns.",
+      "to": "杀死恶魂，并收集20个恶魂之泪。奖励：150经验值，1个诡异菌钓竿，5个灯笼。"
+    },
+    { "replace": "Axolotl Investigation (Quest)", "to": "美西螈调研（任务）" },
+    {
+      "replace": "Kill an Axolotl. Reward: 500 Exp, 1x Bucket.",
+      "to": "杀死美西螈。奖励：500经验值，1个铁桶。"
+    },
+    { "replace": "Hoarder! (Quest)", "to": "屯积者！（任务）" },
+    {
+      "replace": "Collect 64x Diamond Blocks.  Reward: 200 Exp, 10x Emerald Blocks, 10x Gold Blocks.",
+      "to": "收集64个钻石块。奖励：200经验值，10个绿宝石块，10个金块。"
+    },
+    { "replace": "Ender's Demise (Quest)", "to": "末影之灭（任务）" },
+    {
+      "replace": "(Final Extreme Quest) Kill The Ender Dragon.  Reward: 4000 Exp, 1x Black Bed, 1x Elytra, 25x Lapis Lazuli, 25x Red Mushroom Blocks, 1x Pink Shulker Box, 1x Cyan Shulker Box, 1x Brown Shulker Box.",
+      "to": "（最终极限任务）杀死末影龙。奖励：4000经验值，1个黑色床，1个鞘翅，25个青金石，25个红色蘑菇方块，1个粉红色潜影盒，1个青色潜影盒，1个棕色潜影盒。"
+    },
+    { "replace": "Zonal Equality (Quest)", "to": "区域平等（任务）" },
+    {
+      "replace": "Gather 10x Podzol.  Reward: 120 Exp, 50x Pumpkin, 20x Carved Pumpkin.",
+      "to": "收集10个灰化土。奖励：120经验值，50个南瓜，20个雕刻过的南瓜。"
+    },
+    { "replace": "The Incredible Shulk (Quest)", "to": "神奇的潜影贝（任务）" },
+    {
+      "replace": "Kill Shulkers, Collect 30x Shulker Shells.  Reward: 280 Exp, 25x Rabbit Stew, 1x Netherite Hoe.",
+      "to": "杀死潜影贝，并收集30个潜影壳。奖励：280经验值，25个兔子脚，1个下界合金锄。"
+    },
+    { "replace": "Magmaliciously (Quest)", "to": "更多岩浆制品（任务）" },
+    {
+      "replace": "Kill Magma Cubes, Collect 30x Magma Cream.  Reward: 350 Exp, 25x Glass, 25x Leather.",
+      "to": "击杀岩浆怪，并收集30个岩浆膏。奖励：350经验值，25个玻璃，25个皮革。"
+    },
+    { "replace": "I Love Spiders (Quest)", "to": "我爱蜘蛛（任务）" },
+    {
+      "replace": "Kill More Spiders, Collect 50x Spider Eyes.  Reward: 500 Exp, 1x Iron Chestplate, 1x Diamond Boots.",
+      "to": "击杀更多蜘蛛，并收集50个蜘蛛眼。奖励：500经验值，1个铁胸甲，1个钻石靴子。"
+    },
+    { "replace": "Amazing Fisher! (Quest)", "to": "强力渔夫！（任务）" },
+    {
+      "replace": "Catch 64x of each type of Fish (Cod, Salmon, Pufferfish, Tropical).  Reward: 350 Exp, 5x Fishing Rods.",
+      "to": "收集各种各样的鱼各64个（鳕鱼，鲑鱼，河豚，热带鱼）奖励：350经验值，5根钓鱼竿。"
+    },
+    { "replace": "Even More Ghastly (Quest)", "to": "魂飞魄散（任务）" },
+    {
+      "replace": "Kill Ghasts, Collect 60x Ghast Tears.  Reward: 2000 Exp, 2x Sea Lanterns.",
+      "to": "杀死恶魂，并收集60个恶魂之泪。奖励：2000经验值，2个海晶灯。"
+    },
+    { "replace": "Creeper Trouble (Quest)", "to": "苦力怕难题（任务）" },
+    {
+      "replace": "Fight a Creeper.  Reward: 15 Exp, 1x Chainmail Legging, 1x Chainmail Boots, 5x Beetroot Soup, 1x Bucket.",
+      "to": "击败苦力怕。奖励：15经验值，1个锁链护腿，1个锁链靴子，5碗甜菜汤，1个桶。"
+    },
+    { "replace": "End Foundation (Quest)", "to": "末地地基（任务）" },
+    {
+      "replace": "Gather 20x End Stone Bricks.  Reward: 150 Exp, 14x Glass, 2x Eye of the Ender.",
+      "to": "收集20个末地石砖。奖励：150经验值，14个玻璃，2个末影之眼。"
+    },
+    { "replace": "Pagemaster (Quest)", "to": "书本管理员（任务）" },
+    {
+      "replace": "Craft 3x Books.  Rewards: 40 Exp.",
+      "to": "制造3本书。奖励：40经验值。"
+    },
+    { "replace": "Boss Defeated!", "to": "已击败Boss！" },
+    { "replace": "Fallen Icon Defeated!", "to": "已击败陨落王者！" },
+    {
+      "replace": "By using the Essence of Eventide on the Old Moon Altar, you will return the true heir back to it's original body. This will result in the summoning of the Fallen Icon, a fierce empowered version of the Returning Knight with a fast and dangerous second phase.",
+      "to": "在破旧的月光祭坛上使用日暮精粹，你将让真正的继承者回归他原本的躯体。这将召唤出陨落王者，它是复仇骑士的凶猛强化版，第二阶段快速且危险。"
+    },
+    { "replace": "Corrupted Champion Defeated!", "to": "已击败堕落的英雄！" },
+    {
+      "replace": "Collect 3 bone staff fragments from the Ruins structures. Obtain a bone dagger. Hold a glass bottle in offhand and kill villagers with bone dagger to get Vial of Blood filled up. Find Lich Prison and wait until night. Place bone staff pieces on dark corrupted deepslate blocks front of altar. Pour Vial of Blood into altar to summon Corrupted Champion.",
+      "to": "从废墟结构中收集3块骨杖碎片。获得一把骨头匕首。手持玻璃瓶，用骨头匕首杀死村民，将小血瓶装满。找到巫妖囚笼并等到晚上。将骨杖碎片放在祭坛前的堕落深石方块上。将血瓶倒入祭坛，召唤堕落的英雄。"
+    },
+    { "replace": "Day Stalker Defeated!", "to": "已击败昼从者！" },
+    {
+      "replace": "Summoned by throwing the Chaos Orb into the sky. Wielding the Dawnbreaker, this goddess is empowered during the day and is slower, but more tankier than her other counterpart. Enraged when Night Prowler is defeated.",
+      "to": "通过向天空投掷混沌宝珠来召唤。挥舞着破晓者，在白天这位女神会被赋予力量，速度较慢，但比她的同伴更抗揍。当夜行者被击败时会被激怒。"
+    },
+    { "replace": "Night Lich Defeated!", "to": "已击败暗夜巫妖！" },
+    {
+      "replace": "Night Lich, found in rare towers in cold biomes. Locate the towers by following soul stars..",
+      "to": "暗夜巫妖可发现于寒冷生物群系的稀有塔状建筑。跟随着灵魂之星来找寻塔吧……"
+    },
+    { "replace": "Dragon Defeated!", "to": "已击败末影龙！" },
+    {
+      "replace": "The ender dragon spawns after an entity first arrives in the End, along with the bedrock frame for the exit portal.",
+      "to": "在一个实体第一次到达末地之后，末影龙就会生成，同时出现的还有出口传送门的基岩框架。"
+    },
+    {
+      "replace": "Old Champion's Remains Defeated!",
+      "to": "已击败古英雄的遗骸！"
+    },
+    {
+      "replace": "A boss spawning in the Old Champion's Graves, this skeleton figure has been possessed by another being, namely The Frenzied Shade. After killing the Old Champion, it will drop the Draugr sword, and the Frenzied Shade will spawn.",
+      "to": "这具骷髅是在古英雄坟墓中出现的Boss，它已被另一名生物--暗夜之影附身。击杀古英雄后，它会掉落德拉格尔，同时暗夜之影也会生成。"
+    },
+    { "replace": "Obsidilith Defeated!", "to": "已击败黑曜石巨柱！" },
+    {
+      "replace": "Obsidilith, which appears in rare structures in the end islands..",
+      "to": "黑曜石巨柱出现于末地的稀有结构……"
+    },
+    { "replace": "Void Blossom Defeated!", "to": "已击败虚空之花！" },
+    {
+      "replace": "Void Blossom, appears in rare caves at the bottom of the world. Void lilies will point the way..",
+      "to": "虚空之花出现于世界底部的稀有洞穴中。虚空百合将为你指明方向……"
+    },
+    { "replace": "Nether Gauntlet Defeated!", "to": "已击败下界铁掌！" },
+    {
+      "replace": "Nether Gauntlet, which appears in rare structures in the nether..",
+      "to": "下界铁掌出现于下界的稀有结构……"
+    },
+    { "replace": "Magus Defeated!", "to": "已击败至尊法师（Magus）！" },
+    {
+      "replace": "Magus is summoned by using a Prismatic Effigy. Enter the Glass Ocean by using a Hexblade on the portal..",
+      "to": "使用棱镜之刃（Prismatic Effigy）召唤至尊法师。在传送门上使用咒剑进入琉璃之海（Glass Ocean）……"
+    },
+    { "replace": "Wither Defeated!", "to": "已击败凋灵！" },
+    {
+      "replace": "The Wither is spawned by placing 4 blocks of soul sand or soul soil in a T shape and putting 3 wither skeleton skulls on top of the three upper blocks.",
+      "to": "将4块灵魂沙或灵魂土摆成T字形，然后将3个凋灵骷髅头颅放在上面3个方块的顶端，就能生成凋灵。"
+    },
+    { "replace": "Soulslike Bosses", "to": "类魂Boss" },
+    {
+      "replace": "Defeat The Decaying King, Old Champion's Remains, Frenzied Shade, Returning Knight, Fallen Icon, and Monarch of Chaos.",
+      "to": "击败腐朽的王，古英雄的遗骸，暗夜之影，复仇骑士，陨落王者和混沌君主。"
+    },
+    { "replace": "Soulslike Bosses", "to": "类魂Boss" },
+    {
+      "replace": "Defeat Magus The Elemental.",
+      "to": "击败至尊法师（Magus The Elemental）"
+    },
+    { "replace": "Warden Defeated!", "to": "已击败监守者！" },
+    {
+      "replace": "Wardens do not use standard mob spawning mechanics. They are instead spawned when a player activates naturally generated sculk shriekers four times instead and if there isn't already another warden within 24 blocks of it.",
+      "to": "监守者不使用标准的生物生成机制。相反，当玩家激活四次自然生成的幽匿尖啸体时，如果24格内没有监守者，它就会生成。"
+    },
+    {
+      "replace": "Bosses of Mass Destruction Bosses",
+      "to": "Bosses of Mass Destruction的Boss"
+    },
+    {
+      "replace": "Defeat The Night Lich, Obsidilith, Nether Guantlet, and Void Blossom.",
+      "to": "击败暗夜巫妖，黑曜巨石柱，下界铁掌和虚空之花。"
+    },
+    { "replace": "Decaying King Defeated!", "to": "已击败腐朽的王！" },
+    {
+      "replace": "The Decaying King spawns in the remnants of the Decaying Kingdom in the nether. This cursed monstrosity wields The Darkin Blade, and has many deadly attacks to look out for.",
+      "to": "腐朽之王生成于下界腐朽王国的残念。这只被诅咒的怪物挥舞着暗裔利刃，需要注意他许多致命的攻击方式。"
+    },
+    { "replace": "Monarch of Chaos Defeated!", "to": "已击败混沌君主！" },
+    {
+      "replace": "The Monarch of Chaos is a powerful mage. Additionally, it wears both the Crown of Chaos and the Cape of Chaos, two items that will be dropped upon it's death with the Withered Wabbajack. It can be summoned by using the Shard of Uncertainty (which is dropped by the Wither) on the Blackstone Pedestal block.",
+      "to": "混沌君主是一位强大的法师。此外，它还佩戴着混沌之冠和混沌披肩，这两件物品会随着它的死亡，与凋零的瓦巴杰克一起掉落。它可以通过使用黑石基座上的不确定性的残片（由凋灵掉落）来召唤。"
+    },
+    { "replace": "Frenzied Shade Defeated!", "to": "已击败暗夜之影！" },
+    {
+      "replace": "The Frenzied Shade is a cursed and powerful soul, banished from it's former body, who mistakenly possessed the Old Champion. It flies and can move through any block. At half health the shade duplicates itself, summoning 4 other Frenzied Shades with a quarter of the originals health and only 35% damage, but other than the stats, their attacks and looks will still be the same.",
+      "to": "暗夜之影是一名被诅咒的强大灵魂，它被驱逐出了原来的躯体，错误地附身于古英雄之身。它能飞，能穿过任何方块。当生命值减半时，暗夜之影会复制自己，召唤出另外4名暗夜之影，生命值只有原来的四分之一，伤害也只有原来的35%，但除属性外，它们的攻击和外观都是相同的。"
+    },
+    { "replace": "Returning Knight Defeated!", "to": "已击败复仇骑士！" },
+    {
+      "replace": "The Returning Knight is a slow, but hard hitting boss with a few attacks up his sleeve. After killing The Returning Knight, he will drop moonstone, Nightfall, a Lord Soul and the Arkenstone. He can be summoned by using a Lost Soul on the Old Moon Altar.",
+      "to": "复仇骑士是一名速度较慢但攻击力很强的Boss，他有多种攻击方式。击杀复仇骑士后，他会掉落月光石、夜陨、王的灵魂和阿肯宝钻。在破旧的月光祭坛上使用迷失的灵魂可以召唤他。"
+    },
+    {
+      "replace": "Defeat Bosses! Each boss drops experience and items.",
+      "to": "击败这些Boss！每名Boss都会掉落经验和物品。"
+    },
+    { "replace": "Night Prowler Defeated!", "to": "已击败夜伏者！" },
+    {
+      "replace": "Summoned by throwing the Chaos Orb into the sky. Empowered during the night and wielding the Soul Reaper, this goddess is less tanky compared to her sister, but is faster, deadlier and loves to teleport around if certain conditions are met. Enraged when Day Stalker is defeated.",
+      "to": "通过向天空投掷混沌宝珠来召唤。在夜间这位女神被赋予力量，挥舞着灵魂收割者，与她的姐姐相比，她的防御能力较弱，但速度更快，杀伤力更强，如果满足特定条件，她还喜欢四处传送。当昼行者被击败时会被激怒。"
+    },
+    { "replace": "Vanilla Bosses", "to": "原版Boss" },
+    {
+      "replace": "Defeat the Wither, Ender Dragon and Warden.",
+      "to": "击败凋灵，末影龙和监守者。"
+    },
+    { "replace": "Graveyard Bosses", "to": "墓园Boss" },
+    { "replace": "Defeat The Corrupted Champion.", "to": "击败堕落的英雄。" },
+    {
+      "replace": "DarkSpawn cannot be triggered while slow falling is active...",
+      "to": "由于缓降效果存在，无法将你传送到出生点……"
+    },
+    {
+      "replace": "A dark mage has teleported you to spawn...",
+      "to": "暗黑法师将你传送到了出生点……"
+    },
+    {
+      "replace": "A dark mage has granted your death wish...",
+      "to": "一名暗黑法术赋予了你死亡祝福……"
+    },
+    {
+      "replace": "A dark mage has rewarded you with a selected item! Next random reward in 30 minutes..",
+      "to": "你从暗黑法师那里得到了一个随机物品！下一次随机奖励在30分钟后……"
+    },
+    {
+      "replace": "A dark mage will reward you with a selected random item in 30 minutes..",
+      "to": "暗黑法师将会在30分钟后奖励你一个随机物品……"
+    },
+    { "replace": "Curse of Binding Cleared...", "to": "绑定诅咒已被清除……" },
+    { "replace": "Void all Trinklet slots ", "to": "清空所有饰品栏 " },
+    { "replace": "aqua", "to": "点击这里" },
+    {
+      "replace": "Warning If you click here it will void all your trinket slot items",
+      "to": "注意如果你点击了这里，你的饰品栏物品将会被全部清除"
+    },
+    { "replace": "Trinkets Voided", "to": "饰品栏已清空" },
+    {
+      "replace": "缓降激活时无法触发随机TP……",
+      "to": "随机传送无法在缓降效果存在时激活……"
+    },
+    {
+      "replace": "一名暗黑法师将你传送到了一个随机的位置……",
+      "to": "暗黑法师将你传送到了一个随机的地方……"
+    },
+    {
+      "replace": "Place a Diamond Shovel in offhand slot whilst underwater to gain Water Breathing, Speed, Night Vision.",
+      "to": "在水下时，将一把钻石锹放入副手，可以获得水下呼吸、速度以及夜视效果。"
+    },
+    {
+      "replace": "You have been rewarded special login reward items...",
+      "to": "你获得了特殊奖励物品……"
+    },
+    { "replace": "Login Rewards", "to": "登录奖励" },
+    { "replace": "Special Login Rewards", "to": "特殊登录奖励" },
+    {
+      "replace": "Open the rewards bundle to receive your special login rewards...",
+      "to": "打开奖励袋，领取你的特殊登录奖励……"
+    },
+    {
+      "replace": "A dark mage will clear dropped items in 10 seconds..",
+      "to": "暗黑法师将在10秒后清理掉落物……"
+    },
+    {
+      "replace": "A dark mage will clear dropped items in 10 minutes..",
+      "to": "暗黑法师将在10分钟后清理掉落物……"
+    },
+    {
+      "replace": "A dark mage has cleared dropped items!",
+      "to": "暗黑法师成功清理了掉落物！"
+    },
+    {
+      "replace": "A dark mage will clear dropped items in 1 minute..",
+      "to": "暗黑法师将在1分钟后清理掉落物……"
+    },
+    {
+      "replace": "Jetpack boost is currently active...",
+      "to": "喷气背包效果已启用……"
+    },
+    {
+      "replace": "A dark mage has boosted your jetpack...",
+      "to": "暗黑法师激活了你的喷气背包……"
+    },
+    {
+      "replace": "Place a Diamond Shovel in offhand to boost your jetpack...",
+      "to": "请在副手放置一把钻石锹以激活喷气背包……"
+    },
+    {
+      "replace": "You spun the XP Wheel",
+      "to": "你转动了经验转盘"
+    },
+    { "replace": "XP Spinning Machine", "to": "经验转盘" },
+    {
+      "replace": "Try your luck and win rewards! Gamble with your XP to win prizes...",
+      "to": "测试你人品的时候到了！用你的经验来赌博，赢取奖品……"
+    },
+    { "replace": "DarkSpins", "to": "暗黑转盘" },
+    {
+      "replace": "Stand on a Diamond Block, Alternate a Diamond sword between main hand and offhand. Cost is 5 XP Levels per spin. Good Luck!",
+      "to": "站在一个钻石块上，在主手和副手之间交换一把钻石剑。每次旋转转盘的花费是5级。祝你好运！"
+    },
+    { "replace": "Home Sweet Home", "to": "甜蜜的家" },
+    {
+      "replace": "Your natural spawnpoint is in the Taiga biome.",
+      "to": "你的初始出生点在针叶林群系。"
+    },
+    { "replace": "Small Frame", "to": "小个子" },
+    {
+      "replace": "Your small frame gives little weight, making it easier to move at the cost of health.",
+      "to": "小个子带来了轻体重，以牺牲生命为代价，使移动变得更加轻便。"
+    },
+    { "replace": "Drip", "to": "滴答" },
+    {
+      "replace": "You cannot use chanimail armor, leather armor, and netherite armor because uhh..yes.",
+      "to": "你不能穿锁链盔甲、皮革盔甲和下界合金盔甲，因为... ...对。"
+    },
+    { "replace": "Paws", "to": "兽爪" },
+    {
+      "replace": "You are unable to hold a shield and deal less damage with projectiles because of how your paws are built.",
+      "to": "由于你的兽爪构造，你无法持盾，造成的远程伤害也降低。"
+    },
+    { "replace": "Scram!", "to": "快跑！" },
+    {
+      "replace": "Whenever your health goes below 4 hearts, you gain a small speed boost",
+      "to": "只要你的生命值低于四颗心，你就会获得一个小小的移速提升。"
+    },
+    { "replace": "Mighty Mouth", "to": "深渊巨口" },
+    {
+      "replace": "You carry a secret stash that no one but you has acccess to. You can access this pouch by using your load hotbar activator key.",
+      "to": "你携带着一个秘密的储物空间，除你之外无人可及。你可以通过设定的热键打开这个袋子。"
+    },
+    { "replace": "Pounce [Primary]", "to": "猛扑 [主要技能]" },
+    {
+      "replace": "You perform a great leap towards the direction you're facing. You also deal more damage while falling.",
+      "to": "朝面朝方向猛冲一次。下落时能造成更多伤害。"
+    },
+    { "replace": "Vulpine Diet", "to": "狐狸食性" },
+    {
+      "replace": "Kitsunes love berries and therefore they cure 4 hunger points and 14.4 saturation points (like the golden carrot) & your diet is restricted to meat, fish, and berries, so you can't really eat vegetables.",
+      "to": "狐狸喜欢吃浆果，所以浆果能回4点饥饿值和14.4点饱和度（和金胡萝卜一样）。你的饮食范围被限制在肉、鱼和浆果内，所以你真没法吃蔬菜。"
+    },
+    { "replace": "Phasing [Secondary]", "to": "相位移动 [次要技能]" },
+    {
+      "replace": "You can walk through solid material, except obsidian, crying obsidian, barriers and bedrock, BUT you are unable to phase up or down.",
+      "to": "你能穿过除了黑曜石、哭泣黑曜石、屏障和基岩以外的固体，但是你不能向上或者向下相位移动。"
+    },
+    { "replace": "Fast Metabolism", "to": "新陈代谢旺盛" },
+    {
+      "replace": "A small body performing great movements requires a large amount of food!",
+      "to": "一个小小的身体做这么多大动作当然需要消耗大量的食物！"
+    },
+    { "replace": "Kitsune", "to": "狐妖" },
+    {
+      "replace": "This race of Spirit Foxes dwell around settlements waiting for for treasure to be left unguarded. Though weak in terms of vitality they use their spiritual power to hide and strengthen their power.",
+      "to": "这种灵狐会在聚居地附近安家，等待疏于看守的宝藏掉落。虽然生命值较低，但它们可以用灵力隐藏身形或增强力量。"
+    },
+    { "replace": "Not so fond of fire", "to": "不太喜欢火" },
+    { "replace": "More damage from fire.", "to": "受到更多的火焰伤害。" },
+    { "replace": "boom", "to": "轰鸣" },
+    {
+      "replace": "after year of running from the wardens you have learned to mask your self from them.",
+      "to": "常年的追逐让你学会了如何伪装监守者。"
+    },
+    { "replace": "grenade incoming", "to": "手榴弹来袭" },
+    { "replace": "look out.", "to": "注意点。" },
+    { "replace": "In hell", "to": "身处地狱" },
+    {
+      "replace": "your only hobby that you find interesting is in the deep dark because God hates you in particular.",
+      "to": "你唯一的兴趣爱好就是待在黑暗中，因为上帝特别讨厌你。"
+    },
+    { "replace": "Warden Blast", "to": "监守者冲击波" },
+    {
+      "replace": "Since you have been down here so long you can use some of the wardens moves.",
+      "to": "因为长时间待在这里所以你可以使用监守者的一些招式。"
+    }
+  ]
+}

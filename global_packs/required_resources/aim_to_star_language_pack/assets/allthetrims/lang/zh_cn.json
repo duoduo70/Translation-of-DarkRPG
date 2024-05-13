@@ -1,0 +1,17 @@
+{
+    "tooltip.elytratrims.missing": "§c需要鞘翅纹饰来渲染纹饰",
+    "item.allthetrims.materials.unavailable": "§c材料不在白名单",
+    "yacl.allthetrims.title": "All The Trims配置",
+    "yacl.allthetrims.category.general": "通用",
+    "yacl.allthetrims.tooltip.general": "通用设置",
+    "yacl.allthetrims.group.main": "主要",
+    "yacl.allthetrims.name.ignorewhitelist": "忽略白名单",
+    "yacl.allthetrims.description.ignorewhitelist": "忽略白名单，允许使用所有纹饰材料",
+    "yacl.allthetrims.description.debug1": "切换调试模式",
+    "yacl.allthetrims.description.debug2": "启用后，调试文件会生成在游戏文件夹内",
+    "yacl.allthetrims.description.debug3": "§c需要重启并进入世界以生成调试文档",
+    "yacl.allthetrims.name.debug": "调试",
+    "allthetrims.website": "我的网页",
+    "text.allthetrims.material": "材料",
+    "yacl.allthetrims.description.main": "主要设置"
+}

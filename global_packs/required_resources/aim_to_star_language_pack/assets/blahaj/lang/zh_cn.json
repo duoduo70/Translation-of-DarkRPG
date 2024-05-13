@@ -1,0 +1,9 @@
+{
+    "block.blahaj.blue_shark.tooltip": "a.k.a. Blahaj",
+    "block.blahaj.bread": "面包抱枕",
+    "tooltip.blahaj.owner.craft": "由%s合成",
+    "block.blahaj.gray_shark": "灰色鲨鱼玩具",
+    "block.blahaj.blue_shark": "毛绒鲨鱼玩具",
+    "block.blahaj.gray_shark.tooltip": "a.k.a. Klappar Haj",
+    "tooltip.blahaj.owner.rename": "%2$s的%1$s"
+}

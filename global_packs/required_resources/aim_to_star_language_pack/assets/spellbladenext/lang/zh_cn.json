@@ -1,0 +1,7 @@
+{
+    "itemGroup.spellbladenext.general": "Spellblades and Such",
+    "item.spellbladenext.arcane_blade": "奥术魔剑",
+    "entity.spellbladenext.amethyst": "紫水晶",
+    "spell.spellbladenext.whirlingblades.description": "像激流附魔的三叉戟一样瞄准并发射自己",
+    "spell.spellbladenext.frostvert.description": "攻击前方的敌人，造成1.5倍近战伤害与{damage}点附带火焰伤害，并承受一股向上的推力"
+}
