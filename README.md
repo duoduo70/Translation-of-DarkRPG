@@ -1,4 +1,4 @@
-# Translation-of-DarkRPG 黑暗角色扮演游戏的翻译
+# Translation-of-DarkRPG
 因为我自己想玩，所以我尝试把旧版本的汉化移植到新版本上。
 
 旧版本的整合包主要由指星汉化组翻译。遵照他们和 CFPA 的许可协议，我使用 CC BY-NC-SA 4.0 协议再分发。
@@ -13,6 +13,6 @@
 
 特别感谢指星汉化组提供了旧版本整合包的汉化，感谢 CFPA 译者翻译了近百万条模组文件。本汉化是对其余内容的补遗。
 
-Plasma(duoduo70) 等离子(duoduo70)
+Plasma(duoduo70)
 
 2024/5/13
