@@ -20,7 +20,6 @@ import shutil
 import sys
 import re
 import zipfile
-import chardet
 
 # Python 的可读性太差了, 语法还哆嗦，真的，我想用 Perl ……
 # 还管啥效率啊，能跑起来就成
