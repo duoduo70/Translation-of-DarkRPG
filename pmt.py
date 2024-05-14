@@ -7,7 +7,7 @@ Github 仓库：https://github.com/duoduo70/Translation-of-DarkRPG
 用法：
 
 选项:
-    -u <汉化文件> <欲将其作用的目录> 使用一个汉化
+    -u <汉化文件> <欲将其作用到bv的目录> 使用一个汉化
     -h 显示本文档
     -t <目录> 获取翻译辅助信息
     -v 查看本软件的版本
@@ -165,7 +165,7 @@ def get_quoted_substring(line, position):
 
 def extract_substring(filename, localize_line_number, localize_col_number):
     try:
-        with open(filename, "r") as file:
+        with open(filename, "r", encoding="utf-8") as file:
             for line_number, line in enumerate(file, 1):
                 if line_number == localize_line_number:
                     return get_quoted_substring(line, localize_col_number)
@@ -260,7 +260,7 @@ def main():
                 print_error("暂不支持导入多个汉化文件")
                 return
             else:
-                with open(config_path, "r") as file:
+                with open(config_path, "r", encoding="utf-8") as file:
                     config = json.load(file)
                 print(config["name"] + "\n\t版本：" + config["version"])
                 if "extra-info" in config:
